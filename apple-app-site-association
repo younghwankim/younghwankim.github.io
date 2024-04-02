@@ -1,0 +1,34 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appID": "6S27LX4PA8.com.CIBC.mobilebanking",
+                "paths": [
+                    "/ebm-resources/public/banking/cibc/client/web/index.html*",
+                    "/ebm-resources/public/digital-cart/client/index.html*",
+                    "/ebm-resources/public/cibc-referral-app/client/index.html*",
+                    "/ebm-resources/online-banking/client/index.html*",
+                    "/ebm-resources/public/auth-app-parkland/client/index.html*",
+                    "/ebm-resources/public/help-center/client/index.html*",
+                    "/ebm-resources/public/auth-app-meetings/client/index.html*",
+                    "/VA*",
+                    "NOT /ebm-resources/public/secure-key/*"
+                ]
+            },
+            {
+                "appID": "L8NJVP5KD6.com.cibc.enterprise.CIBC",
+                "paths": [
+                    "/ebm-resources/public/banking/cibc/client/web/index.html*",
+                    "/ebm-resources/public/digital-cart/client/index.html*",
+                    "/ebm-resources/public/cibc-referral-app/client/index.html*",
+                    "/ebm-resources/online-banking/client/index.html*",
+                    "/ebm-resources/public/auth-app-parkland/client/index.html*",
+                    "/ebm-resources/public/help-center/client/index.html*",
+                    "/ebm-resources/public/auth-app-meetings/client/index.html*",
+                    "/VA*",
+                    "NOT /ebm-resources/public/secure-key/*"
+                ]
+            }
+        ]
+    }
+}
