@@ -1,34 +1,64 @@
 {
-    "applinks": {
-        "details": [
-            {
-                "appID": "6S27LX4PA8.com.CIBC.mobilebanking",
-                "paths": [
-                    "/ebm-resources/public/banking/cibc/client/web/index.html*",
-                    "/ebm-resources/public/digital-cart/client/index.html*",
-                    "/ebm-resources/public/cibc-referral-app/client/index.html*",
-                    "/ebm-resources/online-banking/client/index.html*",
-                    "/ebm-resources/public/auth-app-parkland/client/index.html*",
-                    "/ebm-resources/public/help-center/client/index.html*",
-                    "/ebm-resources/public/auth-app-meetings/client/index.html*",
-                    "/VA*",
-                    "NOT /ebm-resources/public/secure-key/*"
-                ]
-            },
-            {
-                "appID": "L8NJVP5KD6.com.cibc.enterprise.CIBC",
-                "paths": [
-                    "/ebm-resources/public/banking/cibc/client/web/index.html*",
-                    "/ebm-resources/public/digital-cart/client/index.html*",
-                    "/ebm-resources/public/cibc-referral-app/client/index.html*",
-                    "/ebm-resources/online-banking/client/index.html*",
-                    "/ebm-resources/public/auth-app-parkland/client/index.html*",
-                    "/ebm-resources/public/help-center/client/index.html*",
-                    "/ebm-resources/public/auth-app-meetings/client/index.html*",
-                    "/VA*",
-                    "NOT /ebm-resources/public/secure-key/*"
-                ]
-            }
+  "applinks": {
+    "details": [
+      {
+        "appID": "6S27LX4PA8.com.CIBC.mobilebanking",
+        "paths": [
+          "/ebm-resources/public/banking/cibc/client/web/index.html*",
+          "/ebm-resources/public/digital-cart/client/index.html*",
+          "/ebm-resources/public/cibc-referral-app/client/index.html*",
+          "/ebm-resources/online-banking/client/index.html*",
+          "/ebm-resources/public/auth-app-parkland/client/index.html*",
+          "/ebm-resources/public/help-center/client/index.html*",
+          "/ebm-resources/public/auth-app-meetings/client/index.html*",
+          "/ebm-resources/public/business-credit-card-app/client/index.html*",
+          "/VA*",
+          "NOT /ebm-resources/public/secure-key/*"
         ]
-    }
+      },
+      {
+        "appID": "L8NJVP5KD6.com.cibc.enterprise.CIBC",
+        "paths": [
+          "/ebm-resources/public/banking/cibc/client/web/index.html*",
+          "/ebm-resources/public/digital-cart/client/index.html*",
+          "/ebm-resources/public/cibc-referral-app/client/index.html*",
+          "/ebm-resources/online-banking/client/index.html*",
+          "/ebm-resources/public/auth-app-parkland/client/index.html*",
+          "/ebm-resources/public/help-center/client/index.html*",
+          "/ebm-resources/public/auth-app-meetings/client/index.html*",
+          "/ebm-resources/public/business-credit-card-app/client/index.html*",
+          "/VA*",
+          "NOT /ebm-resources/public/secure-key/*"
+        ]
+      },
+      {
+        "appID": "45GMRZ4CS5.com.cibc.mobilepcf",
+        "paths": [
+          "/ebm-resources/public/client/web/index.html*",
+          "/ebm-resources/public/product-applications/simplii/credit-card/client/index.html*",
+          "/ebm-resources/public/product-applications/simplii/mobile-app/client/index.html*",
+          "/ebm-resources/public/product-applications/simplii/remote-account-open/client/index.html*",
+          "/ebm-resources/public/simplii/multicurrency-accounts-app/client/index.html*",
+          "/ebm-resources/public/simplii/direct-to-consumer-app/client/index.html*",
+          "/ebm-resources/public/product-selector/simplii/client/index.html*",
+          "/ebm-resources/public/service-requests/simplii/more-services/client/index.html*",
+          "NOT /ebm-resources/public/secure-key/"
+        ]
+      },
+      {
+        "appID": "L8NJVP5KD6.com.cibc.enterprise.PCF",
+        "paths": [
+          "/ebm-resources/public/client/web/index.html",
+          "/ebm-resources/public/product-applications/simplii/credit-card/client/index.html*",
+          "/ebm-resources/public/product-applications/simplii/mobile-app/client/index.html*",
+          "/ebm-resources/public/product-applications/simplii/remote-account-open/client/index.html*",
+          "/ebm-resources/public/simplii/multicurrency-accounts-app/client/index.html*",
+          "/ebm-resources/public/simplii/direct-to-consumer-app/client/index.html*",
+          "/ebm-resources/public/product-selector/simplii/client/index.html*",
+          "/ebm-resources/public/service-requests/simplii/more-services/client/index.html*",
+          "NOT /ebm-resources/public/secure-key/*"
+        ]
+      }
+    ]
+  }
 }
